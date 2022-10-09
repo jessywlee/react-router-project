@@ -1,8 +1,14 @@
+import useRouter from "../router/UseRouter";
+
 const Root = () => {
+  const { push } = useRouter();
+  const goToAbout = () => {
+    push('/about');
+  }
   return (
     <>
       <h1>root</h1>
-      <button>about</button>
+      <button onClick={goToAbout}>about</button>
     </>
   );
 }
