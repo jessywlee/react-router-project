@@ -1,2 +1,2 @@
 # react-router-project
-Develop a react Router, Route components + useRouter hook
+Develop a basic react Router, Route components + useRouter hook
